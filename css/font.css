@@ -9,5 +9,6 @@ p{
 }
 a, button, li{
 	font-family: 'Baloo Thambi 2' ,  Medium;
-
+	text-decoration: none;
+    padding: 10px;
 }

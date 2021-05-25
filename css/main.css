@@ -88,7 +88,56 @@ textarea {
    ========================================================================== */
 
    /*==header==*/
+    /*=Nav-top=*/
+    .nav-top{
+      padding-top: 10px
+    }
+    .nav-top a{
+      color: #373737;
 
+    }
+   /*=Hero=*/
+    .hero{
+      background-image: url("../img/hero.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #ffff;
+      height: 500px;
+    }
+    nav{
+      padding-top: 20px;
+      padding-bottom: 20px
+    }
+    nav .logo h1{
+      float: left;
+      margin-top: -2px;
+      margin-right: 30px;
+    }
+    nav a{
+      padding-top: 22px;
+      color: #ffff;
+    }
+
+    .left{
+      padding-top: 50px;
+      width: 50%;
+      height: 400px;
+      float: left;
+    }
+    .left h1{
+      font-size: 2.5em;
+    }
+    .right{
+      margin-left: 75%;
+      margin-right: -140px;
+      height: 300px;
+      padding: 20px;
+      background-color: #ffff;
+      color: #373737;
+    }
+    .right img{
+      float: right;
+    }
 
 
 /* ==========================================================================
@@ -96,8 +145,16 @@ textarea {
    ========================================================================== */
 
    .container{
-    width: 1200px;
+    width: 900px;
     margin: 0 auto;
+   }
+
+   button{
+    background-color:#F77D25;
+    color: #ffff;
+    border-style: none;
+    border-radius: 20px ;
+
    }
 
 /*

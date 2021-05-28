@@ -234,7 +234,6 @@ textarea {
       color: #1F65B4;
      background: none;
      border: 1px solid #1F65B4;
-     /* margin: 0 10px; */
     }
     .text-image img{
       float: right;
@@ -242,6 +241,59 @@ textarea {
       margin-top: -200px;
     }
 
+    /* =demo= */
+     .demo{
+       border-top: 1px solid #B0B1B4 ;
+       border-bottom: 1px solid #B0B1B4 ;
+       margin-top: 150px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+     }
+     .demo h4{
+       font-size: 20px;
+     }
+     .demo button{
+       height: 50px;
+     }
+  /* ===Footer=== */
+     footer .container{
+       display: flex;
+       text-align: left;
+      justify-content: space-around;
+     }
+     footer .item{
+       padding: 10px;
+     }
+     footer ul{
+       list-style: none;
+       padding-left: 0;
+     }
+     footer h5{
+       font-size: 17px;
+       margin-bottom: 5px;
+     }
+     footer ul li{
+       font-size: 13px;
+       padding: 0;
+       padding-bottom: 5px;
+       color: #B0B1B4;
+     }
+     footer ul li span{
+       color: #1F65B4;
+       border-bottom: 1px solid #1F65B4;
+     }
+     footer .icons{
+       display: flex;
+       justify-content: space-around;
+       height: 25px;
+
+     }
+     footer .icon i{
+       padding: 10px;
+       background: #B0B1B4;
+       border-radius: 50%;
+     }
 
 /* ==========================================================================
    Helper classes

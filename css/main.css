@@ -214,6 +214,33 @@ textarea {
      border: 1px solid #1F65B4;
      margin: 0 10px;
    }
+   /* =text-image= */
+    .text-image{
+      margin-top: 250px;
+      padding-top: 200px;
+    }
+    .text-image h3{
+      font-size: 30px;
+      width: 30%;
+      margin-bottom: 0;
+    }
+    .text-image p{
+      float: left;
+      width: 30%;
+      font-size: 13px;
+    }
+    .text-image button{
+      float: left;
+      color: #1F65B4;
+     background: none;
+     border: 1px solid #1F65B4;
+     /* margin: 0 10px; */
+    }
+    .text-image img{
+      float: right;
+      height: 350px;
+      margin-top: -200px;
+    }
 
 
 /* ==========================================================================

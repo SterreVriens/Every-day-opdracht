@@ -90,11 +90,12 @@ textarea {
    /*==header==*/
     /*=Nav-top=*/
     .nav-top{
-      padding-top: 10px
+      padding-top: 10px;
+      height: 35px;
     }
     .nav-top a{
       color: #373737;
-
+      padding: 15px;
     }
    /*=Hero=*/
     .hero{
@@ -119,59 +120,71 @@ textarea {
       padding-top: 22px;
       color: #ffff;
     }
-
-    .left{
-      padding-top: 50px;
-      width: 50%;
-      height: 330px;
-      float: left;
-      margin-left: -140px;
+    nav i{
+      font-size: 13px;
     }
+
+     .left{
+      padding-top: 30px;
+      width: 45%;   
+      float: left;
+    }
+    
     .left h1{
       font-size: 2.5em;
     }
+    
     .right{
-      margin-left: 75%;
-      margin-right: -140px;
-      height: 350px;
-      padding: 20px;
+      height: 300px;
+      width: 35%;
+      float: right;
+      padding: 20px; 
       background-color: #ffff;
       color: #373737;
     }
+    
     .right img{
       float: right;
-      margin-top: -153px;
-      padding-left: 20px;
+      margin-top: -31.5%;
     }
     .right a{
       float: left;
       padding: 5px 0;
-      width: 50%;
+      width: 45%;
       margin-right: 100px;
       color: #F77D25;
+      font-size: 13px;
     }
+    
     .right p{
       width: 50%;
-
+      font-size: 12px;
     }
+    .right button{
+      font-size: 14px;
+      margin-top: 10%;
+    }
+    
     .triangle-left {
       width: 0;
       height: 0;
       border-top: 25px solid transparent;
-      border-right: 50px solid #ffff;
+      border-right: 40px solid #ffff;
       border-bottom: 25px solid transparent;
-      margin-left: -70px;
-      margin-top: -40px;
-    }
+      margin-left: -50px;
+      margin-top: -25px;
+    } 
     .bottom-header{
+      height: 50px;
       background: #F7F9FC;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
+      align-items: center;
     }
     .bottom-header p{
       display:inline;
       font-size: 15px;
-      padding: 10px 30px;
+      padding: 20px 30px;
     }
     .bottom-header i{
       padding: 2px;
@@ -182,6 +195,7 @@ textarea {
     /* =title= */
     .title{
       text-align: center;
+      padding-bottom: 10%;
     }
     .title h3{
         font-size: 50px;
@@ -197,53 +211,54 @@ textarea {
       justify-content: space-around;
     }
    .card{
-    float: left;
-    width: 30%;
-    padding: 0 10px;
+    width: 32%;  
     background: #F7F9FC;
     
    }
    .card img{
-     width: 103%;
+     width: 100%; 
+   }
+   .card-content{
+     padding: 18px;
    }
    .card h4{
-     font-size: 23px;
-     padding: 0 10px;
+     font-size: 20px;
    }
    .card p{
      color: #B0B1B4;
-     padding: 0 10px;
    }
    .card button{
+     margin-top: -5%;
      color: #1F65B4;
      background: none;
      border: 1px solid #1F65B4;
-     margin: 0 10px;
+     
    }
    /* =text-image= */
     .text-image{
       margin-top: 150px;
+      display: flex;
     }
-    .text-image h3{
-      font-size: 30px;
-      width: 30%;
-      margin-bottom: 0;
+    .text{
+      width: 45%;
     }
-    .text-image p{
-      float: left;
-      width: 30%;
-      font-size: 13px;
+    .text h3{
+      font-size: 40px;
     }
-    .text-image button{
-      float: left;
+    .text p{
+      font-size: 16px;
+      color: #B0B1B4;
+    }
+    .text button{
       color: #1F65B4;
-     background: none;
-     border: 1px solid #1F65B4;
+      background: none;
+      border: 1px solid #1F65B4;
     }
-    .text-image img{
-      float: right;
-      height: 350px;
-      margin-top: -200px;
+    .image{
+      width: 55%;
+    }
+    .image img{
+      width: 100%;
     }
 
     /* =demo= */
@@ -256,33 +271,38 @@ textarea {
        align-items: center;
      }
      .demo h4{
-       font-size: 20px;
+       font-size: 25px;
+       font-weight: 400;
      }
      .demo button{
-       height: 50px;
+       height: 40px;
+       /* border-radius: 55%; */
      }
   /* ===Footer=== */
      footer .container{
        display: flex;
        text-align: left;
-      justify-content: space-around;
+       justify-content: space-around;
      }
      footer .item{
        padding: 10px;
      }
+     footer h5{
+      font-size: 17px;
+      margin-bottom: 5px;
+    }
      footer ul{
        list-style: none;
        padding-left: 0;
      }
-     footer h5{
-       font-size: 17px;
-       margin-bottom: 5px;
-     }
+    
      footer ul li{
        font-size: 13px;
        padding: 0;
        padding-bottom: 5px;
        color: #B0B1B4;
+       font-weight: 400;
+
      }
      footer ul li span{
        color: #1F65B4;

@@ -96,6 +96,7 @@ textarea {
     .nav-top a{
       color: #373737;
       padding: 15px;
+      font-weight: 400;
     }
    /*=Hero=*/
     .hero{
@@ -114,11 +115,11 @@ textarea {
     nav .logo h1{
       float: left;
       margin-top: -2px;
-      margin-right: 30px;
     }
     nav a{
       padding-top: 22px;
       color: #ffff;
+      font-weight: 400;
     }
     nav i{
       font-size: 13px;
@@ -159,6 +160,7 @@ textarea {
     .right p{
       width: 50%;
       font-size: 12px;
+      color: #858282;
     }
     .right button{
       font-size: 14px;
@@ -204,6 +206,7 @@ textarea {
     .title p{
       font-size: 15px;
       margin-top: 0;
+      color: #858282;
     }
    /* =cards= */
     .cards{

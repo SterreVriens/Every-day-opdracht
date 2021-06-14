@@ -440,148 +440,168 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (max-width: 1190px) {
-  .hero .content .right{
-    margin-right: -100px;
-    
-  }
-  .hero .content .right img{
-    margin-top: -200px;  
-  }
-  .hero .content .right p{
-    font-size: 12px;
-  }.hero .content .right a{
-    font-size: 12px;
-  }
-  .hero .content .right h2{
-    font-size: 22px;
-  }
-  .hero .left{
-    width: 40%;
-    margin-left: 60px;
-  }
-  button{
-    font-size: 13px;
-  }
-}
+
 @media only screen and (max-width: 1100px) {
-  .hero .left{
-    width: 35%;
+  body .container a{
+    font-size: 19px;
+    font-weight: 600;
   }
-  .hero .left h1{
-    font-size: 2em;
-  }
-  .hero .content .right{
-    margin-right: 0px;
-    height: 280px;
-  }
-  .hero .content .right img{
-    display: none;
-  }
-  .hero .content .right p{
-    font-size: 12px;
-    width: 100%;
-  }.hero .content .right a{
-    font-size: 12px;
-    width: 100%;
-  }
-  .hero .content .right h2{
+  body .container p{
     font-size: 20px;
+    font-weight: 500;
   }
-  .triangle-left{
-    padding-right: -40px;
+  body .container li{
+    font-size: 17px;
+    font-weight: 500;
   }
-  button{
-    font-size: 11px;
+  body .container button{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .right{
+    width: 40%;
+    height: 330px;
+  }
+  
+  .right img{
+    margin-top: -40%;
+  }
+  .hero .right a{
+    font-size: 17px;
+  }
+  .right button{
+    margin-top: 4%;
+  }
+  
+  .triangle-left {
+    margin-top: -55px;
+  } 
+  .bottom-header .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 
-  .title h3{
-    font-size: 35px;
+  .bottom-header p{
+    padding: 0 10px;
   }
-  .cards h4{
-    font-size: 19px;
-  }
-  .cards p{
-    font-size: 14px;
-  }
-  .text-image h3{
-    font-size: 25px;
-  }
+
+ 
+
 }
 @media only screen and (max-width: 820px) {
   .container{
-    width: 700px;
+    width: 650px;
   }
-  .nav-top{
-    font-size: 13px;
+  body .container a{
+    font-size: 16px;
   }
-  .logo{
-    font-size: 13px;
+  body .container p{
+    font-size: 17px;
   }
-  .nav-right{
-    font-size: 13px;
-  }
-  
-  .hero .left h1{
-    font-size: 1.3em;
-  }
-  .hero .left p{
-    font-size: 14px;
-  }
-  .hero .content .right{
-    margin-right: 20px;
-    margin-left: 60%;
-    height: 230px;
-  }
-  .hero .content .right p{
-    font-size: 12px;
-    width: 100%;
-  }.hero .content .right a{
-    font-size: 12px;
-    width: 100%;
-  }
-  .hero .content .right h2{
-    font-size: 14px;
-  }
-  .triangle-left{
-    margin-top: 0;
-    border-right:40px solid #ffff;
-    margin-left: -50px;
-  }
-  .bottom-header p{
-    font-size: 10px;
-  }
-
-  .title h3{
-    font-size: 28px;
-  }
-  .title p{
-    font-size: 12px;
-  }
-  .card {
-    width: 33%;
-  
-  }
-  .cards h4{
+  body .container li{
     font-size: 15px;
   }
-  .cards p{
-    font-size: 12px;
+  body .container button{
+    font-size: 16px;
+    padding: 8px;
   }
-  .text-image{
-    padding: 50px;
-    /* width: 95%; */
+  .nav-top{
+    display: flex;
+    justify-content: space-around;
   }
-  .text-image h3{
-    font-size: 20px;
+  .nav-top a{
+    padding: 0;
   }
-  .text-image img{
-    height: 280px;
-    margin-top: -150px;
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
   }
-  .demo{
-    padding: 0 100px;
+  nav .logo h1{
+    font-size: 23px;
   }
+  nav button{
+   margin-top: 10px;
+  }
+  .left{
+    width: 40%;   
+  }
+  
+  .left h1{
+    font-size: 2.0em;
+  }
+  .right{
+    width: 45%;
+  }
+  .right h2{
+    font-size:  20px;
+  }
+  
+  .right img{
+    margin-top: -50.5%;
+  }
+  .hero .right a{
+    font-size: 15px;
+  }
+
+   
+  .bottom-header .container{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .bottom-header p{
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  main .title h3{
+    font-size: 40px;
+  }
+  .cards{
+    display: inline-block;
+  }
+ .card{
+  width: 80%;  
+  margin: 10px auto;
+ }
+ .card img{
+   width: 100%; 
+ }
+ .card-content{
+   padding: 18px;
+ }
+ .card h4{
+   font-size: 23px;
+ }
+
+ .text-image{
+  margin-top: 50px;
+  display: flex;
+}
+.text{
+  width: 40%;
+}
+.text h3{
+  font-size: 30px;
+}
+.text button{
+  color: #1F65B4;
+  background: none;
+  border: 1px solid #1F65B4;
+}
+.image{
+  margin-top: 10%;
+  width: 60%;
+}
+.image img{
+  width: 100%;
+}
+
 }
 @media only screen and (max-width: 550px) {
   .container{

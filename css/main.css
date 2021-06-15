@@ -603,209 +603,126 @@ textarea {
 }
 
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 780px) {
   .container{
     width: 500px;
   }
-  nav .logo h1{
-    margin: 0;
-  }
-  .nav-top{
-    font-size: 8px;
-  }
-  .logo{
-    font-size: 7px;
-    margin-top: 0;
-  }
-  .nav-right{
-    font-size: 8px;
-  }
-  
-  .hero .left h1{
-    font-size: 1em;
-  }
-  .hero .left p{
-    font-size: 12px;
-  }
-  .hero .content .right{
-    margin-right: 20px;
-    margin-left: 55%;
-    height: 230px;
-  }
-  .hero .content .right p{
-    font-size: 10px;
-  }.hero .content .right a{
-    font-size: 10px;
-  }
-  .hero .content .right h2{
-    font-size: 12px;
-  }
-  .bottom-header p{
-    font-size: 8px;
-    padding: 10px 15px;
-  }
-
-  .title h3{
-    font-size: 23px;
-  }
-  .title p{
-    font-size: 10px;
-  }
-  .card {
-    width: 33%;
-  
-  }
-  .cards h4{
-    font-size: 12px;
-  }
-  .cards p{
-    font-size: 10px;
-  }
-  .text-image{
-    margin: 0;
-  }
-  .text-image h3{
+  body .container a{
     font-size: 15px;
   }
-  .text-image p{
-    font-size: 10px;
+  body .container p{
+    font-size: 16px;
   }
-  .text-image img{
-    height: 180px;
-    margin-top: -50px;
-  }
-  .demo{
-    padding: 0 100px;
-  }
-  .demo h4{
+  body .container li{
     font-size: 13px;
   }
-  .demo button{
-    height: auto;
+  body .container button{
+    font-size: 15px;
+    padding: 8px;
   }
-  footer h5{
-    font-size: 13px;
+  header .container {
+    width: 650px;
   }
-  footer ul li{
-    font-size: 10px;
-  }
-  footer .icon i{
-    padding: 5px;
-  }
-  .bottom-footer p{
-    font-size: 8px;
-  }
-}
-@media only screen and (max-width: 430px) {
-  .container{
-    width: 320px;
-  }
-  nav button{
-    padding: 5px;
-    font-size: 6px;
-    margin-top: 10px;
-  }
-  .nav-top{
-    font-size: 5px;
-  }
-  nav .logo{
-    font-size: 7px;
+  .nav-top a{
     padding: 2px;
   }
-  .nav-right{
-    margin-top: 10px;
-    font-size: 6px;
+  nav .logo h1{
+    margin-top: -5px;
   }
-  .hero{
-    height: 380px;
+  .left h1{
+    font-size: 1.8em;
   }
+  .right{
+    width: 45%;
+  }
+  .right img{
+    margin-top: -41%;
+  }
+ .card{
+  width: 90%;  
+ }
+ .text-image{
+  margin-top: 50px;
+ }
+ .text h3{
+  font-size: 25px;
+ }
+ .image img{
+  width: 140%;
+ }
+ .demo{
+   margin-top: 50px;
+ }
+ .demo h4{
+  font-size: 20px;
+ }
+ .demo button{
+  height: 30px;
+  
+ }
+ .bottom-footer .container p{
+   font-size: 13px
+ }
+}
 
-  .content .left{
-    margin-left: 20px;
-    height: 200px;
+@media only screen and (max-width: 550px) {
+  .container{
+    width: 400px;
   }
-  .content .left h1{
+  body .container a{
+    font-size: 12px;
+  }
+  body .container p{
     font-size: 13px;
   }
-  .content .left p{
-    font-size: 10px;
+  body .container li{
+    font-size: 11px;
   }
-  .hero .content .right{
-    margin-right: 0px;
-    margin-left: 55%;
-    height: 230px;
-  }
-  .hero .content .right p{
-    font-size: 8px;
-  }.hero .content .right a{
-    font-size: 8px;
-  }
-  .hero .content .right h2{
-    font-size: 10px;
-  }
-  .hero .content button{
+  body .container button{
+    font-size: 13px;
     padding: 5px;
-    font-size: 8px;
-    margin-top: 10px;
   }
-  .bottom-header p{
-    font-size: 4px;
+  header .container {
+    width: 450px;
   }
-  .title h3{
-    font-size: 15px;
+  .hero{
+    height: 450px;
   }
-  .title p{
-    font-size: 8px;
+  nav .logo h1{
+    margin-top: -1px;
+    font-size: 17px;
+    padding: 2px;
   }
-
-  .cards h4{
-    font-size: 8px;
-  }
-  .cards p{
-    font-size: 6px;
-  }
-  .card button{
-    font-size: 7px;
-  }
-
-  .text-image h3{
-    font-size: 8px;
-  }
-  .text-image p{
-    font-size: 6px;
-  }
-  .text-image img{
-    height: 80px;
-    margin-top: -50px;
-  }
-  .text-image button{
+  nav a{
     padding: 5px;
-    font-size: 8px;
   }
-  .demo{
-    margin-top: 20px;
-    padding: 0;
+  .left h1{
+    font-size: 1.4em;
   }
-  .demo h4{
-    font-size: 10px;
+  .right{
+    width: 45%;
+    height: 270px;
   }
-  .demo button{
-    height: auto;
-    font-size: 8px;
+  .right img{
+    margin-top: -62%;
+    height: 140px;
   }
-  footer h5{
-    font-size: 10px;
+  .hero .right h2{
+    font-size: 17px;
   }
-  footer ul li{
-    font-size: 8px;
+  .hero .right a{
+    font-size: 11px;
+  } 
+  .hero .right p{
+    font-size: 12px;
   }
-  footer .icon i{
-    padding: 5px;
-    font-size: 7px;
-  }
-  .bottom-footer p{
-    font-size: 6px;
-  }
+ 
+ .demo h4{
+  font-size: 17px;
+ }
+ .bottom-footer .container p{
+   font-size: 10px
+ }
 }
 
 @media only screen and (max-width: 330px) {

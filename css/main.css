@@ -716,7 +716,12 @@ textarea {
   .hero .right p{
     font-size: 12px;
   }
- 
+   .text h3{
+    font-size: 20px;
+   }
+   .image img{
+    width: 110%;
+   }
  .demo h4{
   font-size: 17px;
  }
@@ -725,104 +730,213 @@ textarea {
  }
 }
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 440px) {
   .container{
-    width: 290px;
+    width: 320px;
+  }
+  header .container {
+    width: 320px;
   }
   .nav-top{
-    font-size: 4px;
-  }
-  .bottom-header i{
-    display: none;
-  }
-  .bottom-header p{
-    font-size: 4px;
-  }
-}
-@media only screen and (max-width: 290px) {
-  .container{
-    width: 290px;
-  }
-  .nav-top{
-    font-size: 4px;
-  }
-  nav .logo{
-    font-size: 5px;
-  }
-  .nav-right{
-    margin-top: 5px;
-    font-size: 6px;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    font-size: 8px;
   }
   .hero{
-    height: 340px;
+    height: 450px;
   }
-
-  .content .left h1{
-    font-size: 11px;
-  }
-  .content .left p{
-    font-size: 8px;
-  }
-  .hero .content .right{
-    margin-right: 20px;
-    margin-left: 48%;
-    height: 150px;
-  }
-  .hero .content .right p{
-    font-size: 6px;
-  }.hero .content .right a{
-    font-size: 6px;
-  }
-  .hero .content .right h2{
-    font-size: 8px;
-  }
-  .hero .content button{
-    font-size: 6px;
-  }
-  .triangle-left{
-    margin-top: -20px;
-    margin-left: -40px;
-  }
-  .title h3{
-    font-size: 12px;
-  }
-  .title p{
-    font-size: 7px;
-  }
-
-  .cards h4{
-    font-size: 6px;
-  }
-  .cards p{
-    font-size: 6px;
-  }
-  .card button{
-    font-size: 7px;
+  nav .logo h1{
+    margin-top: -1px;
+    font-size: 15px;
     padding: 2px;
   }
-  .demo{
-    padding: 0 20px;
+  nav a{
+    padding: 3px;
   }
-  .demo h4{
-    font-size: 8px;
+  .left h1{
+    font-size: 1.1em;
   }
-  .demo button{
-    height: auto;
-    font-size: 5px;
+  .right{
+    width: 40%;
+    height: 240px;
+    padding: 20px;
   }
-  footer h5{
-    font-size: 8px;
+  .right img{
+    display: none;
   }
-  footer ul li{
-    font-size: 6px;
+  .hero .right h2{
+    font-size: 15px;
   }
-  footer .icon i{
+  .hero .right a{
+    font-size: 11px;
+    width: 100%;
+  } 
+  .hero .right p{
+    font-size: 12px;
+    width: 100%;
+  }
+  main .title h3{
+    font-size: 25px;
+  }
+  .card{
+    text-align: center;
+  }
+  .card h4{
+    font-size: 20px;
+  }
+  .text-image{
+    display: block;
+  }
+  .text{
+    width: 100%;
+  }
+   .text h3{
+    font-size: 20px;
+   }
+   .image {
+    width: 80%;
+    margin-left: 5%;
+   }
+ .demo h4{
+  font-size: 15px;
+ }
+ footer .container{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+footer .item{
+  padding: 5px;
+}
+footer h5{
+ font-size: 17px;
+ margin-bottom: 5px;
+}
+footer ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+ footer ul li{
+  font-size: 13px;
+  padding: 0;
+  padding-bottom: 5px;
+  color: #B0B1B4;
+  font-weight: 400;
+ }
+ footer .icon i{
+  padding: 8px;
+ }
+ .bottom-footer .container p{
+   font-size: 8px
+ }
+}
+@media only screen and (max-width: 330px) {
+  .container{
+    width: 250px;
+  }
+  body .container a{
+    font-size: 11px;
+  }
+  body .container p{
+    font-size: 12px;
+  }
+  body .container li{
+    font-size: 10px;
+  }
+  body .container button{
+    font-size: 13px;
     padding: 5px;
-    font-size: 7px;
   }
-  .bottom-footer p{
-    font-size: 6px;
+  header .container {
+    width: 260px;
   }
+  header .nav-top a{
+    font-size: 10px;
+  }
+  .hero{
+    height: 550px;
+  }
+
+  nav a{
+    padding: 5px;
+  }
+  .left{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .left h1{
+    font-size: 1.2em;
+  }
+  .right{
+    width: 80%;
+    height: 180px;
+    padding: 20px;
+  }
+ 
+  .hero .right a{
+    font-size: 11px;
+    width: 100%;
+  } 
+  .hero .right p{
+    font-size: 12px;
+    width: 100%;
+  }
+  
+  main .title h3{
+    font-size: 25px;
+  }
+  .card{
+    text-align: center;
+  }
+  .card h4{
+    font-size: 20px;
+  }
+  .text-image{
+    display: block;
+  }
+  .text{
+    width: 100%;
+  }
+   .text h3{
+    font-size: 20px;
+   }
+   .image {
+    width: 80%;
+    margin-left: 5%;
+   }
+ .demo h4{
+  font-size: 15px;
+ }
+ footer .container{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+footer .item{
+  padding: 5px;
+}
+footer h5{
+ font-size: 17px;
+ margin-bottom: 5px;
+}
+footer ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+ footer ul li{
+  font-size: 13px;
+  padding: 0;
+  padding-bottom: 5px;
+  color: #B0B1B4;
+  font-weight: 400;
+ }
+ footer .icon i{
+  padding: 8px;
+ }
+ .bottom-footer .container p{
+   font-size: 8px
+ }
 }
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
